@@ -1,0 +1,116 @@
+@import "../themes/var.css";
+@import "../base/reset.css";
+@import "../layout/header.css";
+@import "../layout/footer.css";
+.pricing{
+  padding: 128px 0;
+  width: 100%;
+}
+.pricing h2{
+  color: var(--Dark-blue);
+  font-family: var(--Poppins);
+  font-size: 48px;
+  text-align: center;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 64px;
+}
+:root{
+  --Poppins: "Poppins", sans-serif;
+  --Dark-blue: #282938;
+  --White:#fff;
+  --Text-color:#282938;
+  --Yellow:#FCD980;
+  --Grey: #F4F6FC;
+  --Royal-Blue: #2405F2;
+}
+.pricing p{
+  max-width: 562px;
+  color: var(--Dark-blue);
+  margin: 0 auto;
+  text-align: left;
+  font-family:var(--Poppins);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px;
+}
+.pricing-card{
+  max-width: 400px;
+  height: 745px;
+  margin-top: 64px;
+  padding: 48px 62px;
+  flex-shrink: 0;
+  border-radius: 12px;
+  background: var(--Grey);
+}
+.pricing .row{
+  width: 100%;
+  gap: 32px;
+}
+.pricing-card span{
+  width: 95px;
+  height: 56px;
+  flex-shrink: 0;
+  color: var(--Dark-blue);
+  font-family: var(--Poppins);
+  font-size: 38px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 56px; 
+}
+.pricing-card a{
+  display: inline-flex;
+  align-items: center;
+  color: var(--Royal-Blue);
+  font-family:var(--Poppins);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+}
+.pricing-card p{
+  max-width: 281px;
+  color: var(--Dark-blue);
+  opacity:.7;
+  font-family:var(--Poppins);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 28px;
+}
+.pricing h6{
+  margin-top: 20px;
+  color: var(--Dark-blue);
+  font-family:var(--Poppins);
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 36px; 
+}
+.card__item{
+  margin-top: 80px;
+}
+.card__desc{
+  display: flex;
+  margin-top: 20px;
+}
+.card__desc img{
+  width: 24px;
+  height: 24px;
+}
+.pricing-btn{
+  margin-top: 70px;
+  padding: 15px 50px;
+  display: flex;
+  width: 254px;
+  height: 64px;
+  padding: 15px 51px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  color:var(--White);
+  flex-shrink: 0;
+  border-radius: 41px;
+  background: var(--Dark-blue);
+}

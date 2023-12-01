@@ -1,0 +1,109 @@
+@import "../themes/var.css";
+@import "../base/reset.css";
+@import "../layout/header.css";
+@import "../layout/footer.css";
+
+.about {
+    padding: 126px 0;
+    width: 100%;
+    background: var(--White);
+}
+.about__card p {
+    color: var(--Dark-blue);
+    font-family: var(--Poppins);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px;
+}
+.about-title {
+    color: var(--Dark-blue, #282938);
+    font-family: var(--Poppins);
+    font-size: 54px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 74px;
+}
+.about .text {
+    max-width: 400px;
+    margin-top: 30px;
+    color: var(--Dark-blue);
+    text-align: justify;
+    font-family: var(--Poppins);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+}
+.bottom1 {
+    width: 100%;
+    margin-top: 126px;
+    background: #f4f5f5;
+}
+.bottom-img {
+    width: 100%;
+}
+.bottom1 h3 {
+    color: var(--Dark-blue);
+    font-family: var(--Poppins);
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 56px;
+}
+.bottom1 p {
+    max-width: 500px;
+    color: var(--Dark-blue);
+    opacity: 0.7;
+    font-family: var(--Poppins);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+}
+.top1 {
+    width: 100%;
+    padding: 96px 80px;
+}
+.meet {
+    padding: 128px 0;
+    background: var(--Grey);
+}
+.meet h2 {
+    margin: 0 auto;
+    color: var(--Dark-blue);
+    text-align: center;
+    font-family: var(--Poppins);
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 64px;
+}
+.meet__row {
+    width: 100%;
+    gap: 32px;
+}
+.meet-card {
+    max-width: 294px;
+    padding: 48px 64px;
+    background: var(--White);
+}
+.meet-card h6 {
+    margin-top: 30px;
+    color: #1d2130;
+    text-align: center;
+    font-family: var(--Poppins);
+    font-size: 24px;
+    border-radius:5px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 36px;
+}
+.meet-card p {
+    color:  #1d2130;
+    font-family: var(--Poppins);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; 
+}

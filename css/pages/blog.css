@@ -1,0 +1,100 @@
+@import "../themes/var.css";
+@import "../themes/var.css";
+@import "../base/reset.css";
+@import "../layout/header.css";
+@import "../layout/footer.css";
+.blog{
+  width: 100%;
+  padding: 128px 0;
+
+}
+.aux{
+  max-width: 949px;
+  margin: 0 auto;
+  color: var(--Dark-blue);
+  text-align: center;
+  font-family: var(--Poppins);
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 64px; 
+}
+.post{
+  margin-top: 16px;
+  color: var(--Dark-blue);
+  text-align: center;
+  font-family:var(--Poppins);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px; 
+}
+.team{
+  margin-top: 32px;
+  max-width: 1280px;
+}
+.subtext{
+  max-width: 741px;
+  margin: 48px auto 0;
+  color: var(--Dark-blue);
+  text-align: center;
+  font-family:var(--Poppins);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px; 
+}
+.blog__btn{
+  display: inline-block;
+  margin: 0 auto;
+  text-align: center;
+  color: var(--Royal-Blue);
+  text-align: center;
+  font-family:var(--Poppins);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px; 
+}
+.blod-title{
+  margin-top: 128px;
+  color: var(--Dark-blue);
+  font-family: var(--Poppins);
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 64px; 
+}
+.card1 {
+  text-align: left;
+}
+.card1 p{
+  margin-top: 32px;
+  color: var(--Dark-blue, #282938);
+  opacity:.7;
+  font-family:var(--Poppins);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px; 
+}
+.card1 h6{
+  max-width: 390px;
+  color: var(--Dark-blue);
+  font-family: var(--Poppins);
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 36px;
+}
+.card1 .btn{
+  width: 150px;
+  height: 28px;
+  color: var(--Tint-blue);
+  font-family:var(--Poppins);
+  font-size: 16px;
+  text-align: left;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 28px; 
+}
