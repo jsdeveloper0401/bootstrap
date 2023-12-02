@@ -62,7 +62,7 @@ textarea::placeholder {
     font-style: normal;
     font-weight: 500;
     line-height: 28px;
-}
+} 
 .message {
     margin-top: 16px;
 }
@@ -78,7 +78,6 @@ label {
 }
 input {
     width: 100%;
-    width: 438px;
     display: inline-flex;
     padding: 18px 32px;
     align-items: flex-start;
@@ -86,10 +85,13 @@ input {
     border-radius: 8px;
     border: 1px solid rgba(0, 0, 0, 0.12);
 }
-.col-6{
-  width: 100%;
-  gap: 32px;
-  display: flex;
-  justify-content: space-between;
-  padding: 0 !important;
-}
+/* .btn-5{
+  border-radius: 41px;
+  font-family: var(--Poppins);
+  background: #FCD980 !important;
+   display: inline-flex;
+  padding: 16px 56px;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+} */

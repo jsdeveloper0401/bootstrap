@@ -43,7 +43,7 @@
     flex-shrink: 0;
     border-radius: 12px;
     background: var(--Grey);
-    transition: 0.5s;
+    transition: 0.5s ease;
 }
 .pricing .row {
     width: 100%;
@@ -98,10 +98,14 @@
 .card__desc {
     display: flex;
     margin-top: 20px;
+    gap: 32px;
 }
 .card__desc img {
     width: 24px;
     height: 24px;
+}
+.card__desc p{
+    margin: 0;
 }
 .pricing-btn {
     margin-top: 70px;
@@ -109,6 +113,7 @@
     display: flex;
     width: 254px;
     height: 64px;
+    font-family: var(--Poppins);
     padding: 15px 51px;
     justify-content: center;
     align-items: center;
@@ -121,7 +126,26 @@
 .pricing-card:hover {
     background: #1c1e53;
 }
+.pricing-card:hover{
+    background-color: #1C1E53;
+    background-image: url(../../images/ellipce.svg);
+    background-position: top;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
 
+.pricing-card:hover *{
+    color: white;
+}
+
+.pricing-card:hover .pricing-card-title p{
+    color: #FCD980;
+}
+
+.pricing-card:hover .pricing-btn{
+    background-color: #FCD980;
+    color: black;
+}
 .footer {
     padding: 95px 0;
     background-color: #1c1e53 !important;
@@ -238,4 +262,13 @@ input::placeholder {
     font-style: normal;
     font-weight: 600;
     line-height: 36px; 
+}
+
+@media (min-width: 600px) {
+    .accordion {
+        padding: 38px 0;
+    }
+    .form{
+     margin: 30px 0;
+    }
 }
