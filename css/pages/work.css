@@ -7,7 +7,14 @@
     padding: 95px 0;
     background: var(--Grey);
 }
-
+@font-face {
+    font-family: "Poppins", sans-serif;
+    src: url(../fonts/Poppins/Poppins-Medium.ttf);
+}
+@font-face {
+    font-family: "Poppins", sans-serif;
+    src: url(../fonts/Poppins/Poppins-SemiBold.ttf);
+}
 :root {
     --Poppins: "Poppins", sans-serif;
     --Dark-blue: #282938;
@@ -160,7 +167,7 @@
     font-weight: 500;
     line-height: 28px;
 }
-.btn {
+.btn-1 {
     margin-top: 40px;
     padding: 16px 65px;
     color: #1b1c2b;
@@ -171,9 +178,9 @@
     font-style: normal;
     font-weight: 600;
     line-height: 32px;
-    transition: .5s ease;
+    transition: 0.5s ease;
 }
-.btn:hover{
-  background: #eacd83;
-  opacity:.8;
+.btn:hover {
+    background: #eacd83;
+    opacity: 0.8;
 }

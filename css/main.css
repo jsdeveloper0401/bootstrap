@@ -90,7 +90,7 @@ img{
 }
 .btn-1:not(.btn-2){
   border-radius: 41px;
-  background: #FCD980 !important;
+  /* background: #FCD980 !important; */
    display: inline-flex;
   padding: 16px 56px;
   justify-content: center;
@@ -283,6 +283,7 @@ input::placeholder{
   line-height: 64px; 
 }
 .design__row{
+  width: 100%;
   margin-top: 47px;
   gap: 32px;
 }
@@ -440,7 +441,7 @@ input::placeholder{
 #backtop {
   position: fixed;
   right: 20px;
-  bottom: -60px;
+  bottom: 60px;
   display: flex;
   align-items: center;
   justify-content: center;

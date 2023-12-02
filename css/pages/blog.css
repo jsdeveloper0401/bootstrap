@@ -33,6 +33,17 @@
   margin-top: 32px;
   max-width: 1280px;
 }
+.btn-1{
+  border-radius: 41px;
+  background: #FCD980 !important;
+   display: inline-flex;
+  padding: 16px 56px;
+  justify-content: center;
+  align-items: center;
+}
+.btn-1:hover{
+  background: #fee29a !important;
+}
 .subtext{
   max-width: 741px;
   margin: 48px auto 0;
