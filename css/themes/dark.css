@@ -1,4 +1,4 @@
-.dark #index__body,
+/* .dark #index__body,
 .dark .header,
 .dark .nav,
 .dark .main,
@@ -78,4 +78,50 @@
 }
 .dark .resources__bottom{
     box-shadow: 0px 0px 10px 3px white;
+} */
+
+.dark *{
+    color:white;
+}
+.dark *{
+    background: #000;
+}
+.dark #navbar{
+    background: #000 !important;
+}
+.dark .card1 {
+    background: #fff;
+    box-shadow: 0px 0px 10px 5px #ffd2a4;
+}
+.dark input::placeholder{
+    color:#f4f6fc;
+}
+.dark footer{
+    background: #000 !important;
+}
+.dark .form{
+    background: #fcd980 !important;
+    box-shadow: 0px 0px 10px 5px #ffd2a4;
+}
+.dark .tell{
+    background: #fcd980 !important;
+}
+.dark .email{
+    background: #fcd980 !important;
+}
+.dark .nav-link{
+    border:1px solid grey;
+    /* background:white; */
+    border-radius:40px;
+    padding: 15px 30px;
+    box-shadow: 0px 0px 10px 5px #ffd2a4 !important;
+}
+.dark .btn-1{
+    box-shadow: 0px 0px 10px 5px #ffd2a4 !important;
+}
+#mode__btn{
+    width: 32px;
+    height: 32px;
+    margin-top: 20px;
+    margin-left: 12px;
 }

@@ -2,7 +2,16 @@
 @import "../base/reset.css";
 @import "../layout/header.css";
 @import "../layout/footer.css";
+@import "../themes/dark.css";
+.navbar {
+    position: fixed;
+    z-index: 99;
+    left: 0;
+    right: 0;
+    background-color: #1c1e53 !important;
+}
 .work {
+    margin-top: 100px;
     width: 100%;
     padding: 95px 0;
     background: var(--Grey);
@@ -167,20 +176,191 @@
     font-weight: 500;
     line-height: 28px;
 }
-.btn-1 {
-    margin-top: 40px;
-    padding: 16px 65px;
-    color: #1b1c2b;
+.btn-1:not(.btn-2) {
     border-radius: 41px;
-    background: #fcd980 !important;
     font-family: var(--Poppins);
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 32px;
-    transition: 0.5s ease;
+    /* background: #FCD980 !important; */
+    display: inline-flex;
+    padding: 16px 56px;
+    justify-content: center;
+    align-items: center;
 }
-.btn:hover {
-    background: #eacd83;
-    opacity: 0.8;
+
+#loading {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.5s;
+    background-color: rgba(0, 0, 0, 0.75);
+}
+
+#loading.loading-none {
+    opacity: 0;
+    z-index: -1;
+}
+
+@keyframes ldio-zxbwzzspus {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+.ldio-zxbwzzspus div {
+    left: 95px;
+    top: 48px;
+    position: absolute;
+    animation: ldio-zxbwzzspus linear 1s infinite;
+    background: #cb6f6f;
+    width: 10px;
+    height: 24px;
+    border-radius: 5px / 12px;
+    transform-origin: 5px 52px;
+}
+.ldio-zxbwzzspus div:nth-child(1) {
+    transform: rotate(0deg);
+    animation-delay: -0.9166666666666666s;
+    background: #cb6f6f;
+}
+.ldio-zxbwzzspus div:nth-child(2) {
+    transform: rotate(30deg);
+    animation-delay: -0.8333333333333334s;
+    background: #cb6f6f;
+}
+.ldio-zxbwzzspus div:nth-child(3) {
+    transform: rotate(60deg);
+    animation-delay: -0.75s;
+    background: #cb6f6f;
+}
+.ldio-zxbwzzspus div:nth-child(4) {
+    transform: rotate(90deg);
+    animation-delay: -0.6666666666666666s;
+    background: #cb6f6f;
+}
+.ldio-zxbwzzspus div:nth-child(5) {
+    transform: rotate(120deg);
+    animation-delay: -0.5833333333333334s;
+    background: #cb6f6f;
+}
+.ldio-zxbwzzspus div:nth-child(6) {
+    transform: rotate(150deg);
+    animation-delay: -0.5s;
+    background: #cb6f6f;
+}
+.ldio-zxbwzzspus div:nth-child(7) {
+    transform: rotate(180deg);
+    animation-delay: -0.4166666666666667s;
+    background: #cb6f6f;
+}
+.ldio-zxbwzzspus div:nth-child(8) {
+    transform: rotate(210deg);
+    animation-delay: -0.3333333333333333s;
+    background: #cb6f6f;
+}
+.ldio-zxbwzzspus div:nth-child(9) {
+    transform: rotate(240deg);
+    animation-delay: -0.25s;
+    background: #cb6f6f;
+}
+.ldio-zxbwzzspus div:nth-child(10) {
+    transform: rotate(270deg);
+    animation-delay: -0.16666666666666666s;
+    background: #cb6f6f;
+}
+.ldio-zxbwzzspus div:nth-child(11) {
+    transform: rotate(300deg);
+    animation-delay: -0.08333333333333333s;
+    background: #cb6f6f;
+}
+.ldio-zxbwzzspus div:nth-child(12) {
+    transform: rotate(330deg);
+    animation-delay: 0s;
+    background: #cb6f6f;
+}
+.loadingio-spinner-spinner-9qtw80gtmdb {
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    overflow: hidden;
+    background: transparent;
+}
+.ldio-zxbwzzspus {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    transform: translateZ(0) scale(1);
+    transform-origin: 0 0;
+}
+.ldio-zxbwzzspus div {
+    box-sizing: content-box;
+}
+
+.dark .body{
+    background: #000;
+    color:#fff;
+}
+.dark *{
+    background: #000;
+    color:#fff;
+}
+.dark main{
+    background: #000;
+    color:#fff;
+}
+.dark .work p{
+    color:#fff;
+}
+.dark h2{
+    color:#fff;
+}
+.dark h2{
+    color:#fff;
+}
+.dark p{
+    color:#fff;
+}
+.dark .button:nth-child(1){
+    box-shadow: 0px 0px 10px 5px #ffd2a4;
+}
+.dark .card1 p{
+    color:#000;
+    background: transparent;
+}
+.dark .card1 h6{
+    color:#000;
+   background: transparent;
+}
+.dark input{
+    background: transparent;
+}
+.dark input::placeholder{
+    color:#000;
+    opacity: .8;
+}
+.dark label{
+    background: transparent;
+    color:#000;
+    opacity: .9;
+}
+.dark .title{
+    color:#fff;
+}
+.dark i{
+    color:#fff;
+}
+.dark h3{
+    color:#fff;
+}
+.dark .btn1{
+    color:#ffd3af;
+}
+.dark .col-6 img{
+     box-shadow: 0px 0px 10px 5px #ffd2a4;
 }

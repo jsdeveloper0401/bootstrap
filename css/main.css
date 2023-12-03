@@ -1,3 +1,4 @@
+@import "../css/modules/loading.css";
 @font-face {
     font-family: "Poppins", sans-serif;
     src: url(../fonts/Poppins/Poppins-Medium.ttf);
@@ -70,11 +71,17 @@ img {
     padding: 1rem 3rem;
     font-family: var(--Poppins);
 }
-
+.btn__group{
+    display: flex;
+    gap: 15px;
+}
 .navbar {
+    position: fixed;
+    z-index: 99;
+    left: 0;
+    right: 0;
     background-color: #1c1e53 !important;
 }
-
 .navbar-brand img {
     height: 1.5rem;
 }
@@ -323,8 +330,6 @@ input::placeholder {
     background: #6770e6;
 }
 
-@import "../base/global.css";
-@import "../modules/donate.css";
 #loading {
     position: fixed;
     top: 0;
@@ -442,8 +447,8 @@ input::placeholder {
 }
 #backtop {
     position: fixed;
-    right: 20px;
-    bottom: 60px;
+    right: -20px;
+    bottom: -60px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -455,6 +460,9 @@ input::placeholder {
     transition: 0.5s;
     z-index: 10;
 }
+body{
+    overflow-x: hidden;
+}
 #backtop .top-img {
     width: 50px;
     height: 50px;
@@ -462,9 +470,10 @@ input::placeholder {
 }
 #backtop.backtop-show {
     bottom: 80px;
+    right: 20px;
 }
 #navbar.navbar-shrink {
-    padding: 10px 0px;
+    padding: 10px 0px !important;
     box-shadow: 0px 0px 15px 10px #000;
 }
 
@@ -486,4 +495,133 @@ input::placeholder {
       justify-content: center;
       align-items: center;
     }
+}
+.dark *{
+    color:white;
+}
+.dark h2{
+    color:#fff;
+}
+
+.dark *{
+    background: #000;
+}
+.dark #navbar{
+    background: #000 !important;
+}
+.dark .card1 {
+    background: #fff;
+    box-shadow: 0px 0px 10px 5px #ffd2a4;
+}
+.dark section *{
+    background: #000;
+}
+.dark input::placeholder{
+    color:#f4f6fc;
+}
+.dark footer{
+    background: #000 !important;
+}
+.dark .form{
+    background: #fcd980 !important;
+    box-shadow: 0px 0px 10px 5px #ffd2a4;
+}
+.dark .tell{
+    background: #fcd980 !important;
+}
+.dark .email{
+    background: #fcd980 !important;
+}
+.dark .nav-link{
+    border:1px solid grey;
+    border-radius:40px;
+    padding: 10px 10px !important;
+    box-shadow: 0px 0px 10px 5px #ffd2a4 !important;
+}
+.dark .btn-1{
+    box-shadow: 0px 0px 10px 5px #ffd2a4 !important;
+}
+
+.dark input{
+    background: transparent;
+}
+.dark input::placeholder{
+    color:#000;
+    opacity: .8;
+}
+.dark label{
+    background: transparent;
+    color:#000;
+    opacity: .9;
+}
+.dark .card1 img{
+    background: transparent;
+}
+.dark .card1 p{
+    color:#000;
+    background: transparent;
+}
+.dark .card1 h6{
+    color:#000;
+    background: transparent;
+}
+#mode__btn{
+    width: 32px;
+    height: 32px;
+    margin-top: 20px;
+    margin-left: 12px;
+}
+.carousel-control-prev, .carousel-control-next {
+  width: 50px;
+  height: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  top: auto;
+  z-index: 1;
+  padding: 5px;
+  color: #282938;
+  font-size: 25px;
+  border-radius: 50%;
+  opacity: 1;
+  -webkit-transition: all 500ms;
+  transition: all 500ms;
+}
+.carousel-control-prev {
+  left: auto;
+  right: 7%;
+}
+.carousel-control-prev:hover, .carousel-control-next:hover {
+  color: white;
+  background-color: #2405f2 !important;
+}
+.carousel-control-prev:hover i, .carousel-control-next:hover i {
+  display: none;
+}
+@media (max-width: 700px) {
+  .carousel-control-prev {
+    right: 15%;
+  }
+}
+@media (max-width: 700px) and (max-width: 350px) {
+  .carousel-control-prev, .carousel-control-next {
+    bottom: -50px;
+  }
+}
+.clients__img{
+    width: 90px;
+    height: 90px;
+}
+.carusel{
+    padding: 50px 0;
 }

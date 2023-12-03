@@ -9,10 +9,29 @@
     rel="stylesheet"
     integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
     crossorigin="anonymous"/>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
     <link rel="stylesheet" href="./css/main.css">
     <title>Bootstrap | HOME</title>
   </head>
-  <body>
+  <body class="body">
+      <div id="loading">
+    <div class="loadingio-spinner-spinner-9qtw80gtmdb">
+      <div class="ldio-zxbwzzspus">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+    </div>
+  </div>
      <div id="backtop" class="backtop-show">
       <a href="#"
         ><img src="./images/back-arrow.svg" alt="top" class="top-img"
@@ -29,18 +48,18 @@
         </button>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav align-items-center ms-auto my-4 mb-lg-0">
-        <li class="nav-item me-3">
+        <li class="nav-item me-4">
           <a class="nav-link " aria-current="page" href="./index.html">Home</a>
         </li>
-        <li class="nav-item me-3">
+        <li class="nav-item me-4">
           <a class="nav-link" href="./pages/about.html">
             About us
           </a>
         </li>
-           <li class="nav-item me-3">
+           <li class="nav-item me-4">
             <a class="nav-link" href="./pages/pricing.html">Pricing</a>
           </li>
-           <li class="nav-item me-3">
+           <li class="nav-item me-4">
             <a class="nav-link" href="./pages/work.html">Work</a>
           </li>
            <li class="nav-item me-4">
@@ -51,6 +70,9 @@
           </li>
       </ul>
     </div>
+    <div id="mode__btn">
+              <img src="./images/dark.svg" alt="dark" class="dark-img"/>
+            </div>
   </div>
 </nav>
     </header>
@@ -132,7 +154,93 @@
           </div>
         </div>
       </section>
-
+       <div class="row">
+        <div class="col-6">
+          <h1>Lorem ipsum dolor sit amet.</h1>
+        </div>
+         <div class="col-6">
+           <div id="carouselExample" class="carousel slide carusel">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <h2 class="clients__big">
+                          "The best agency we’ve worked with so far. They understand
+                          our product and are able to add new features with a great
+                          focus."
+                        </h2>
+                        <div class="clients__bottom d-flex align-items-start gap-3">
+                          <img
+                            src="./images/meet-3.svg"
+                            alt="woman"
+                            class="clients__img"
+                          />
+                          <div class="clients__card">
+                            <h2 class="clients__max">Jenny Wilson</h2>
+                            <p class="clients__min">Vice President</p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="carousel-item">
+                        <h2 class="clients__big">
+                          "The best agency we’ve worked with so far. They understand
+                          our product and are able to add new features with a great
+                          focus."
+                        </h2>
+                        <div class="clients__bottom d-flex align-items-start gap-3">
+                          <img
+                            src="./images/meet-3.svg"
+                            alt="woman"
+                            class="clients__img"
+                          />
+                          <div class="clients__card">
+                            <h2 class="clients__max">Jenny Wilson</h2>
+                            <p class="clients__min">Vice President</p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="carousel-item">
+                        <h2 class="clients__big">
+                          "The best agency we’ve worked with so far. They understand
+                          our product and are able to add new features with a great
+                          focus."
+                        </h2>
+                        <div class="clients__bottom d-flex align-items-start gap-3">
+                          <img
+                            src="./images/meet-3.svg"
+                            alt="woman"
+                            class="clients__img"
+                          />
+                          <div class="clients__card">
+                            <h2 class="clients__max">Jenny Wilson</h2>
+                            <p class="clients__min">Vice President</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <button
+                      class="carousel-control-prev"
+                      type="button"
+                      data-bs-target="#carouselExample"
+                      data-bs-slide="prev"
+                    >
+                      <span class="carousel-control-prev-icon" aria-hidden="true">
+                        <i class="fa-solid fa-chevron-left"></i
+                      ></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button
+                      class="carousel-control-next"
+                      type="button"
+                      data-bs-target="#carouselExample"
+                      data-bs-slide="next"
+                    >
+                      <span class="carousel-control-next-icon" aria-hidden="true"
+                        ><i class="fa-solid fa-chevron-right"></i
+                      ></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
+         </div>
+       </div>
     </main> 
     <footer class="footer bg-primary text-start text-lg-start bg-dark">
       <div class="container">
@@ -169,6 +277,7 @@
       integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
       crossorigin="anonymous"
     ></script>
+    <script src="./js/bootstrap.bundle.min.js"></script>
     <script src="./js/main.js"></script>
   </body>
 </html>
